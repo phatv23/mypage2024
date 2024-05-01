@@ -3,12 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Circle Image with Text</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* CSS to style the image as a circle */
+        body {
+                /* background-color: #f9fdff; */
+                background-color: #121313;
+                color: rgb(255, 255, 255);
+            }
+        hr {
+            background-color:white;
+            border-style:dotted; 
+        }
+        img {
+                border-radius: 50%;
+                width: 250px;
+                height: 300px;
+            }
+ 
+         /*CSS to position text beside the image 
+        .container {
+            display: flex; 
+            align-items: center; 
+
+        } */
+
+        .text {
+            margin-left: 50px; /* Adjust spacing from the image */
+            text-align: left;
+        }
+        /* Style the text beside the table */
+        .text-beside-table {
+            float: left; 
+            margin-right: 20px; 
+        }
+          /* Style the text link */
+        .text a {
+            margin-top: 30px; 
+            text-align: center;
+            font-size: 18px;
+            color: rgb(255, 255, 255); 
+            text-decoration: none; /* Remove underline */
+        }
+        /* Style link hover state */
+            .text a:hover {
+            color: rgb(96, 214, 250); 
+            text-decoration: underline; 
+                }
+    </style>
 </head>
 <body>
-    <ol>
-        <li>Tel: xxx-xxx-xxxx</li>
-        <li>Email: phatsawiphakhon@gosoft.co.th</li>
-    </ol>
+    <table>
+        <tr>
+            <th>
+                <!-- <div class="container"> -->
+                <img src="junkyu.jpg" alt="Your Image">
+                <!-- </div> -->
+            </th>
+            <th>
+                <div class="text">
+                    <h1><u>KIM JUNKYU</u> (김준규)</h1>
+
+                    <p>TREASURE ( Vocal )</Vocal></p>
+                    <p>Blood : O</p>
+                    <p>MBTI : INFP</p>
+                    <p>Nation: Korean</p>
+                    <p><a href="https://www.ygfamily.com/en/artists/treasure/main">Agency: YG Entertainment</a></p>
+
+                
+                </div>
+            </th>
+        </tr>
+
+
+    </table>
+    <p> His nicknames are <em><strong>Koala</strong></em> because he thinks he looks like a Koala when he smiles.</p>
+    <hr>   
+    
+    <h3><i class="fa fa-heart"></i> CAREER <i class="fa fa-heart"></i></h2>
+    
+    
+    <table class = "table1">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Detail</th>
+            </tr>
+        </thead>
+            <tr>
+                <th>2013</th>
+                <th>He started training at YG after passed YG Audition at DEF Dance Skool.</th>
+            </tr>
+            <tr>
+                <th>2017</th>
+                <th>he participated in the reality survival show MIXNINE. He was eliminated in the episode 10 after ranking 35th place.</th>
+            </tr>
+            <tr>
+                <th>2018</th>
+                <th><p>Junkyu participated in YG Entertainment's new survival show, YG Treasure Box. </p>
+                    <p>On the final episode, he was announced as the fourth member of the boy group, later called TREASURE.</p></th>
+            </tr>        
+            <tr>
+                <th>2019</th>
+                <th>YGE announced that he would form a second group from the show, called MAGNUM and together with <em>TREASURE</em></th>
+            </tr>
+            <tr>
+                <th>2020</th>
+                <th>Junkyu debuted as a member of TREASURE on August 7, 2020 with their first single album "The First Step : Chapter One"</em></th>
+            </tr>   
+    </table>
+    <div class="text">
+        <a href="index.html">Back...</em></a>
+    </div>
+
 </body>
 </html>

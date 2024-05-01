@@ -1,9 +1,10 @@
-table {
+.table1 {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    border: 3px solid rgb(63, 62, 62);
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    text-align: left;
   }
   
   caption {
@@ -14,28 +15,34 @@ table {
   
   thead,
   tfoot {
-    background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
+    background-color: rgba(255, 0, 0, 0.637);
     text-align: center;
   }
   
-  tbody > tr:nth-of-type(even) {
-    background-color: rgb(237 238 242);
+  .table1 th,td {
+    border: 1px solid rgb(104, 95, 95);
+    padding: 8px 10px;
   }
   
-  tfoot th {
-    text-align: right;
+
+  .table1 td:last-of-type {
+    text-align: center;
   }
   
-  tfoot td {
+  .table1 tbody > tr:nth-of-type(even) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+
+  }
+  .table1 tbody > tr:nth-of-type(odd) {
+    background-color: rgba(147, 233, 255, 0.815);
+  }
+  
+
+  .table1 tfoot th {
+    text-align: center;
+  }
+  
+  .table1 tfoot td {
     font-weight: bold;
   }
-  
